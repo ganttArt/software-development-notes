@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #title-text {background-color: powderblue;}
+        </style>
+    </head>
+    <body>
+        <div id='title-text'>
+            <p id='Title'>First Title</p>
+            <button onclick="myfunc()">Change Text</button> 
+        </div>
+        <script>
+            function myfunc() {
+                if (document.getElementById('Title').innerHTML == 'First Title') {
+                    document.getElementById('Title').innerHTML = 'New Title';
+                } else {
+                    document.getElementById('Title').innerHTML = 'First Title';
+                }
+            }
+        </script>
+        <!-- <script src="main.js"></script> -->
+    </body>
+</html>
