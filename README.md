@@ -1,1 +1,1 @@
-# software-development-notes
+A collection of language specific notes and exercises.
